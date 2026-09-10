@@ -1,13 +1,13 @@
-# G-G-Odontolog-a
+# Dentalmás
 
-Site institucional da clínica G&G Odontología em Encarnación, Paraguay.
+Site institucional da clínica Dentalmás em Encarnación, Paraguay.
 
 ## Estrutura
 
 ```
 ├── index.html          # Página principal
 ├── css/styles.css      # Estilos
-├── assets/             # Logo, favicon e ilustrações
+├── assets/             # Logo, favicon e fotos
 └── package.json        # Script de desenvolvimento local
 ```
 
@@ -25,6 +25,6 @@ Site estático — pode ser publicado em Vercel, Netlify, GitHub Pages ou qualqu
 
 ## Pendências de conteúdo
 
+- Número de WhatsApp
 - Horário de atendimento
-- Logo oficial da clínica (`assets/logo.jpg`)
-- Confirmar lista de serviços com a clínica
+- Confirmar lista de especialidades com a clínica

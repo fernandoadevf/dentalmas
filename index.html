@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="G&G Odontología — Odontología integral, cercana y de calidad en Encarnación, Paraguay.">
-  <title>G&G Odontología — Encarnación</title>
+  <meta name="description" content="Dentalmás — Implantes dentales y cirugía oral en Encarnación, Paraguay. Tu sonrisa en las mejores manos.">
+  <title>Dentalmás — Encarnación</title>
   <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="/assets/favicon-16.png" type="image/png" sizes="16x16">
@@ -12,161 +12,277 @@
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="is-loading site-inactive">
+<body class="is-loading">
+
+<a class="skip" href="#contenido">Ir al contenido</a>
 
 <div id="loader" class="loader" role="status" aria-live="polite" aria-label="Cargando">
-  <img src="assets/logo.jpg" alt="G&G Odontología" class="loader__logo" width="120" height="120">
+  <img src="assets/logo.png" alt="Dentalmás" class="loader__logo" width="280" height="68">
 </div>
 
-<div id="site-gate" class="site-gate" role="alertdialog" aria-labelledby="site-gate-title" aria-describedby="site-gate-desc">
-  <div class="site-gate__card">
-    <img src="assets/logo.jpg" alt="" class="site-gate__logo" width="88" height="88">
-    <p id="site-gate-title" class="site-gate__title">Sitio pendiente de activación</p>
-    <p id="site-gate-desc" class="site-gate__desc">Este sitio aún no está disponible para uso.</p>
-  </div>
-</div>
-
-<header class="hero">
-  <div class="wrap">
-    <div class="logo-mark">
-      <img src="assets/logo.jpg" alt="G&G Odontología">
-    </div>
-    <p class="brandline">G &amp; G ODONTOLOGÍA · ENCARNACIÓN</p>
-    <h1>Sonrisas que inspiran confianza</h1>
-    <p class="lead">Odontología integral, cercana y de calidad, en el corazón de Encarnación.</p>
-    <div class="cta-row">
-      <span class="btn btn-gold btn--disabled">Agendar por WhatsApp</span>
-      <a class="btn btn-outline" href="#servicios">Ver servicios</a>
+<header class="nav" id="nav">
+  <div class="nav__bar">
+    <a class="nav__brand" href="#inicio">
+      <img src="assets/logo.png" alt="Dentalmás" width="168" height="41">
+    </a>
+    <nav class="nav__links" id="nav-links" aria-label="Principal">
+      <a href="#inicio" class="is-active">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="btn btn-solid" href="https://api.whatsapp.com/send?phone=595985777009&amp;text=Hola%20Dentalmas!%20Vi%20la%20publicaci%C3%B3n%20y%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">Agendá un turno</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </div>
 </header>
 
-<section id="nosotros">
-  <div class="wrap about">
-    <div class="about-copy reveal reveal--left">
-      <div class="section-head">
-        <p class="kicker">Nuestra clínica</p>
-        <h2 class="eyebrow-free-title">Cerca tuyo, cuidando cada sonrisa</h2>
-      </div>
-      <p>En G&amp;G Odontología creemos que una buena atención empieza por escuchar. Combinamos calidez humana con procedimientos modernos para que cada visita sea tranquila, clara y sin sorpresas.</p>
-      <p>Atendemos a familias de Encarnación con un enfoque personalizado, explicando cada tratamiento paso a paso y acompañando tu proceso hasta el resultado final.</p>
-    </div>
-    <div class="frame reveal reveal--right">
-      <img src="assets/about-dentist.webp" alt="Profesional de G&amp;G Odontología">
-    </div>
-  </div>
-</section>
+<main id="contenido">
 
-<section class="services" id="servicios">
-  <div class="wrap">
-    <div class="section-head section-head--center reveal">
-      <p class="kicker">Lo que ofrecemos</p>
-      <h2 class="eyebrow-free-title">Nuestros servicios</h2>
-    </div>
-    <div class="menu-list">
-      <div class="menu-item reveal reveal--stagger">
-        <h3>Limpieza dental</h3>
-        <p>Higiene profesional para prevenir caries y enfermedades de las encías.</p>
-      </div>
-      <div class="menu-item reveal reveal--stagger">
-        <h3>Blanqueamiento</h3>
-        <p>Tratamientos estéticos seguros para recuperar el brillo natural de tu sonrisa.</p>
-      </div>
-      <div class="menu-item reveal reveal--stagger">
-        <h3>Ortodoncia</h3>
-        <p>Alineación dental con seguimiento cercano en cada etapa del tratamiento.</p>
-      </div>
-      <div class="menu-item reveal reveal--stagger">
-        <h3>Implantes dentales</h3>
-        <p>Soluciones duraderas para reemplazar piezas dentales perdidas.</p>
-      </div>
-      <div class="menu-item reveal reveal--stagger">
-        <h3>Endodoncia</h3>
-        <p>Tratamiento de conducto realizado con precisión y mínima molestia.</p>
-      </div>
-    </div>
-    <p class="services-note reveal">* Lista de referencia — a confirmar y ajustar con la clínica.</p>
-  </div>
-</section>
-
-<section id="porque">
-  <div class="wrap">
-    <div class="section-head section-head--center reveal">
-      <p class="kicker">Por qué elegirnos</p>
-      <h2 class="eyebrow-free-title">Una experiencia distinta</h2>
-    </div>
-    <div class="why-grid">
-      <div class="why-item reveal reveal--stagger">
-        <h3><span class="mark">·</span>Atención personalizada</h3>
-        <p>Cada paciente recibe un plan de tratamiento pensado para su caso, sin apuros.</p>
-      </div>
-      <div class="why-item reveal reveal--stagger">
-        <h3><span class="mark">·</span>Tecnología moderna</h3>
-        <p>Equipamiento actualizado para diagnósticos precisos y tratamientos más cómodos.</p>
-      </div>
-      <div class="why-item reveal reveal--stagger">
-        <h3><span class="mark">·</span>Ubicación céntrica</h3>
-        <p>Fácil acceso en Encarnación, con horarios pensados para tu rutina.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="contact" id="contacto">
-  <div class="wrap contact-grid">
-    <div class="contact-info reveal reveal--left">
-      <p class="kicker kicker--contact">Visítanos</p>
-      <h2>Agenda tu consulta</h2>
-      <p>Próximamente podrás agendar tu consulta con nosotros.</p>
-      <div class="info-row">
-        <span class="label">Dirección</span>
-        <span>
-          <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Mcal.+Estigarribia+1558,+Encarnación,+Paraguay" target="_blank" rel="noopener noreferrer">
-            Mcal. Estigarribia 1558, Encarnación
-          </a>
+  <section class="hero" id="inicio">
+    <div class="hero__copy reveal reveal--left">
+      <p class="chip">Tu sonrisa en las mejores manos</p>
+      <h1>
+        Cuidamos tu sonrisa con
+        <span class="word-swap">
+          <span class="word-swap__word is-active">excelencia</span>
+          <span class="word-swap__word">precisión</span>
+          <span class="word-swap__word">tecnología</span>
         </span>
+      </h1>
+      <p class="lead">Un espacio pensado para quienes valoran el detalle, la calma y los resultados que perduran. Implantes dentales y cirugía oral en Encarnación.</p>
+      <div class="cta-row">
+        <a class="btn btn-solid" href="https://api.whatsapp.com/send?phone=595985777009&amp;text=Hola%20Dentalmas!%20Vi%20la%20publicaci%C3%B3n%20y%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">Agendá un turno</a>
+        <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
       </div>
-      <div class="info-row">
-        <span class="label">Ciudad</span>
-        <span>Encarnación, Paraguay</span>
-      </div>
-      <div class="info-row">
-        <span class="label">WhatsApp</span>
-        <span>Próximamente</span>
-      </div>
-      <div class="info-row">
-        <span class="label">Instagram</span>
-        <span><a class="link" href="https://www.instagram.com/gygodontologiapy/">@gygodontologiapy</a></span>
-      </div>
-      <div class="info-row">
-        <span class="label">Horario</span>
-        <span>A confirmar con la clínica</span>
-      </div>
-      <span class="btn btn-gold btn--spaced btn--disabled">Agendar por WhatsApp</span>
     </div>
-    <div class="map-box reveal reveal--right">
-      <iframe
-        title="Ubicación G&G Odontología — Mcal. Estigarribia 1558, Encarnación"
-        data-src="https://www.google.com/maps?q=Mcal.+Estigarribia+1558,+Encarnación,+Paraguay&amp;z=16&amp;output=embed"
-        referrerpolicy="no-referrer-when-downgrade"
-        allowfullscreen
-      ></iframe>
+    <div class="hero__media reveal reveal--right">
+      <picture>
+        <source srcset="assets/hero.webp" type="image/webp">
+        <img src="assets/hero.jpg" alt="Atención odontológica personalizada en Dentalmás">
+      </picture>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer class="reveal">
-  <div class="fbrand">G&amp;G Odontología</div>
-  <div class="flinks">
-    <a href="https://www.instagram.com/gygodontologiapy/">Instagram</a>
+  <section class="about" id="nosotros">
+    <div class="about__media reveal reveal--left">
+      <img src="assets/about-dentist.webp" alt="Dr. Osvaldo Irala, especialista en implantes y cirugía oral">
+    </div>
+    <div class="about__copy reveal reveal--right">
+      <p class="chip">Agendá tu visita</p>
+      <h2>Cuidado de primer nivel para sonrisas <em class="oval">sanas</em> y confiadas</h2>
+      <p>En Dentalmás cada tratamiento nace de un diagnóstico cuidadoso y de una escucha atenta. Combinamos imagenología avanzada con una atención cercana, para que tu visita sea clara, serena y sin sorpresas.</p>
+      <ul class="checks">
+        <li>Tecnología de imagen para tratamientos precisos y más cómodos.</li>
+        <li>Planes personalizados, adaptados a tu caso y a tus tiempos.</li>
+        <li>Especialista en implantes dentales y cirugía oral a cargo.</li>
+      </ul>
+      <a class="btn btn-solid" href="https://api.whatsapp.com/send?phone=595985777009&amp;text=Hola%20Dentalmas!%20Vi%20la%20publicaci%C3%B3n%20y%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">Agendá tu visita</a>
+    </div>
+  </section>
+
+  <section class="featured" id="servicios">
+    <div class="section-intro reveal">
+      <p class="chip">Servicios destacados</p>
+      <h2>Lo que más <em class="oval">valoran</em> nuestros pacientes.</h2>
+    </div>
+    <div class="cards">
+      <article class="card reveal reveal--stagger">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M24 8c-6 8-10 14-10 22a10 10 0 0 0 20 0c0-8-4-14-10-22Z" stroke="currentColor" stroke-width="2"/><path d="M20 28h8M24 24v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </span>
+        <h3>Implantes dentales</h3>
+        <p>Rehabilitación precisa y duradera para reemplazar piezas perdidas, con planificación digital.</p>
+        <ul>
+          <li>Estudio previo completo</li>
+          <li>Resultado fijo y natural</li>
+        </ul>
+      </article>
+      <article class="card reveal reveal--stagger">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M16 10h16c2 0 4 2 4 4v22c0 4-8 8-12 8s-12-4-12-8V14c0-2 2-4 4-4Z" stroke="currentColor" stroke-width="2"/><path d="M20 22h8M20 28h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </span>
+        <h3>Cirugía oral</h3>
+        <p>Procedimientos quirúrgicos con criterio conservador, mínima molestia y seguimiento cercano.</p>
+        <ul>
+          <li>Planificación minuciosa</li>
+          <li>Recuperación acompañada</li>
+        </ul>
+      </article>
+      <article class="card reveal reveal--stagger">
+        <span class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M24 8c-7 9-12 16-12 24a12 12 0 0 0 24 0c0-8-5-15-12-24Z" stroke="currentColor" stroke-width="2"/><path d="M20 30l3 3 6-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <h3>Estética dental</h3>
+        <p>Tratamientos pensados para armonía, brillo y una sonrisa que se sienta tuya.</p>
+        <ul>
+          <li>Enfoque personalizado</li>
+          <li>Resultados naturales</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="why" id="porque">
+    <div class="why__intro reveal reveal--left">
+      <p class="chip chip--dark">Por qué elegirnos</p>
+      <h2>Descubrí la <em class="oval oval--light">excelencia</em> en salud bucal.</h2>
+      <a class="btn btn-light" href="https://api.whatsapp.com/send?phone=595985777009&amp;text=Hola%20Dentalmas!%20Vi%20la%20publicaci%C3%B3n%20y%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">Agendar cita</a>
+    </div>
+    <div class="accordion reveal reveal--right">
+      <details open>
+        <summary>Especialista a cargo</summary>
+        <p>Implantes y cirugía oral con un único criterio clínico, de la planificación al resultado final.</p>
+      </details>
+      <details>
+        <summary>Formación internacional</summary>
+        <p>El Dr. Osvaldo Irala se forma de manera continua en centros de referencia — NYU, Universidad de Barcelona y Harvard School of Dental Medicine.</p>
+      </details>
+      <details>
+        <summary>Diagnóstico de precisión</summary>
+        <p>Imagenología avanzada y un entorno clínico pensado para tu comodidad, sin apuros ni sorpresas.</p>
+      </details>
+      <details>
+        <summary>Tratamiento a tu medida</summary>
+        <p>Cada paciente recibe un plan adaptado a su caso, sus objetivos y sus tiempos.</p>
+      </details>
+      <details>
+        <summary>Un entorno sereno</summary>
+        <p>Cada detalle del consultorio está pensado para que te sientas en calma desde que llegás.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="areas">
+    <div class="section-intro reveal">
+      <p class="chip">Nuestros servicios</p>
+      <h2>Áreas de <em class="oval">especialización</em></h2>
+    </div>
+    <div class="areas__grid">
+      <a class="area reveal reveal--stagger" href="https://api.whatsapp.com/send?phone=595985777009&amp;text=Hola%20Dentalmas!%20Vi%20la%20publicaci%C3%B3n%20y%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <source srcset="assets/area-implantes.webp" type="image/webp">
+          <img src="assets/area-implantes.jpg" alt="" width="900" height="600">
+        </picture>
+        <span class="area__label">Implantes</span>
+      </a>
+      <a class="area reveal reveal--stagger" href="https://api.whatsapp.com/send?phone=595985777009&amp;text=Hola%20Dentalmas!%20Vi%20la%20publicaci%C3%B3n%20y%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <source srcset="assets/area-ortodoncia.webp" type="image/webp">
+          <img src="assets/area-ortodoncia.jpg" alt="" width="900" height="600">
+        </picture>
+        <span class="area__label">Ortodoncia</span>
+      </a>
+      <a class="area reveal reveal--stagger" href="https://api.whatsapp.com/send?phone=595985777009&amp;text=Hola%20Dentalmas!%20Vi%20la%20publicaci%C3%B3n%20y%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <source srcset="assets/area-cirugia.webp" type="image/webp">
+          <img src="assets/area-cirugia.jpg" alt="" width="900" height="600">
+        </picture>
+        <span class="area__label">Cirugía</span>
+      </a>
+      <a class="area reveal reveal--stagger" href="https://api.whatsapp.com/send?phone=595985777009&amp;text=Hola%20Dentalmas!%20Vi%20la%20publicaci%C3%B3n%20y%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">
+        <img src="assets/hero-smile.jpg" alt="" width="1200" height="800">
+        <span class="area__label">Estética</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="booking" id="contacto">
+    <div class="booking__panel reveal">
+      <div class="booking__copy">
+        <p class="chip chip--dark">Agendamiento</p>
+        <h2>Agendá tu <em class="oval oval--light">turno</em>.</h2>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-list__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.2" stroke="currentColor" stroke-width="1.6"/></svg>
+            </span>
+            <span>
+              <strong>Dirección</strong>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Juan+León+Mallorquín+e%2F+Villarica+y+25+de+Mayo,+Encarnación,+Paraguay" target="_blank" rel="noopener noreferrer">Juan León Mallorquin e/ Villarica y 25 de Mayo, Encarnación</a>
+            </span>
+          </li>
+          <li>
+            <span class="contact-list__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 4h9A2.5 2.5 0 0 1 19 6.5v11A2.5 2.5 0 0 1 16.5 20h-9A2.5 2.5 0 0 1 5 17.5v-11A2.5 2.5 0 0 1 7.5 4Z" stroke="currentColor" stroke-width="1.6"/><path d="M8 8.5 12 11.5l4-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span>
+              <strong>WhatsApp</strong>
+              <a href="https://api.whatsapp.com/send?phone=595985777009&amp;text=Hola%20Dentalmas!%20Vi%20la%20publicaci%C3%B3n%20y%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">+595 985 777 009</a>
+            </span>
+          </li>
+        </ul>
+        <a class="btn btn-light btn--large" href="https://api.whatsapp.com/send?phone=595985777009&amp;text=Hola%20Dentalmas!%20Vi%20la%20publicaci%C3%B3n%20y%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">Agendar por WhatsApp</a>
+      </div>
+      <div class="booking__map map-box reveal">
+        <iframe
+          title="Ubicación Dentalmás — Juan León Mallorquin e/ Villarica y 25 de Mayo, Encarnación"
+          data-src="https://www.google.com/maps?q=Juan+León+Mallorquín+e/+Villarica+y+25+de+Mayo,+Encarnación,+Paraguay&amp;z=16&amp;output=embed"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="section-intro reveal">
+      <p class="chip">¿Tenés preguntas?</p>
+      <h2>Preguntas <em class="oval">frecuentes</em></h2>
+    </div>
+    <div class="faq__grid">
+      <details class="reveal">
+        <summary>¿Qué servicios ofrecen?</summary>
+        <p>Implantes dentales, cirugía oral, periodoncia, estética e odontología integral, con el respaldo de un especialista y un entorno clínico de primer nivel.</p>
+      </details>
+      <details class="reveal">
+        <summary>¿Qué implica un implante dental?</summary>
+        <p>Es un tratamiento en etapas que reemplaza una pieza de forma fija y duradera. Hacemos un estudio previo y te acompañamos en cada paso, hasta el resultado final.</p>
+      </details>
+      <details class="reveal">
+        <summary>¿Con qué frecuencia debo venir?</summary>
+        <p>En general, cada 6 meses para control y prevención. El Dr. Irala te va a orientar según tu caso.</p>
+      </details>
+      <details class="reveal">
+        <summary>¿Cómo puedo sacar un turno?</summary>
+        <p>Podés agendar por WhatsApp al +595 985 777 009 o visitarnos en Juan León Mallorquin e/ Villarica y 25 de Mayo, Encarnación.</p>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer__grid">
+    <div>
+      <img src="assets/logo.png" alt="Dentalmás" class="footer__logo" width="180" height="44">
+      <p class="footer__tag">Tu sonrisa en las mejores manos</p>
+      <p><strong>Contacto</strong></p>
+      <p>Juan León Mallorquin e/ Villarica y 25 de Mayo<br>Encarnación, Paraguay</p>
+    </div>
+    <div>
+      <p><strong>Horarios</strong></p>
+      <p>A confirmar con la clínica</p>
+      <a class="btn btn-solid btn--small" href="https://api.whatsapp.com/send?phone=595985777009&amp;text=Hola%20Dentalmas!%20Vi%20la%20publicaci%C3%B3n%20y%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">Agendar</a>
+    </div>
+    <div>
+      <p><strong>Sobre</strong></p>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </div>
   </div>
-  <div>© 2026 G&amp;G Odontología · Encarnación, Paraguay</div>
+  <p class="footer__copy">© 2026 Dentalmás · Encarnación, Paraguay. Todos los derechos reservados.</p>
 </footer>
 
 <script src="js/loader.js"></script>
 <script src="js/reveal.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

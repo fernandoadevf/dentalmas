@@ -1,8 +1,8 @@
 {
-  "name": "gg-odontologia",
+  "name": "dentalmas",
   "version": "1.0.0",
   "private": true,
-  "description": "Site institucional G&G Odontología — Encarnación, Paraguay",
+  "description": "Site institucional Dentalmás — Encarnación, Paraguay",
   "scripts": {
     "dev": "npx --yes serve . -p 3000",
     "start": "npm run dev"
